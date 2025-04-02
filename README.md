@@ -7,9 +7,13 @@ A simple FTP (File Transfer Protocol) server and client implementation in Python
 - File upload and download capabilities
 - Directory navigation and listing
 - User authentication system
-- Support for multiple concurrent connections
+- Support for multiple concurrent connections using threading
 - Secure file transfer using separate data connections
 - Error handling and connection management
+- Multi-threaded architecture for handling:
+  - Multiple client connections simultaneously
+  - Separate threads for file transfer operations
+  - Independent control and data connections
 
 ## Prerequisites
 
